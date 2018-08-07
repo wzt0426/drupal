@@ -1,0 +1,549 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+body {
+    background-color: #d2d6de !important;
+}
+
+.navbar {
+    width: 960px;
+    height: 80px;
+}
+.max {
+    width: 100%;
+    height: 147px;
+}
+
+.min {
+    width: 220px;
+    height: 147px;
+}
+
+.navbar-brand {
+    display: inline;
+    margin-left: 430px;
+    margin-top: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.dropdown {
+    float: right;
+    line-height: 80px;
+}
+
+.views-row {
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.field-content {
+    margin-top: 10px;
+}
+
+.views-field-field-picture {
+    .field-content {
+        text-align: center;
+        .img-responsive {
+            display: initial;
+            width: 500px;
+            height: 300px;
+        }
+    }
+}
+
+.flag {
+    margin-top: 10px;
+}
+
+//Time color
+.views-field-created {
+    color: #d2d6de;
+}
+
+.views-field-uid {
+    font-size: 20px;
+}
+
+//menu style
+.dropdown-menu {
+    margin-top: -20px;
+}
+
+.page-header {
+    border-bottom: 0px;
+}
+
+//input style
+.input-group {
+    width: 209px;
+    margin-left: 557px;
+}
+
+.search-block-form {
+    width: 100px;
+    text-align: center;
+}
+
+
+//menu about ALL MY OTHER
+//.region-content {
+//    .contextual-region {
+        .AllMeniu {
+            float: right;
+            margin-top: 30px;
+
+            .dropdown-toggle {
+                margin-top: -48px;
+                margin-right: 252px;
+                width: 100px;
+            }
+
+            .dropdown-menu {
+                margin-left: 790px;
+                margin-top: 33px;
+            }
+        }
+ //   }
+//}
+
+//title
+.views-field-title {
+    display: none;
+}
+
+
+#block-contentform {
+    background-color: white;
+    margin-bottom: 20px;
+
+    .upload-content {
+        width: 560px;
+        margin-left: 70px;
+        
+
+        textarea {
+            width: 560px;
+            margin-top: 20px;
+            //margin-left: 46px;
+        }
+
+        .btn-upload {
+            margin-top: 10px;
+            background-color: white;
+            padding: 0;
+            border: 1px solid;
+            cursor: pointer;
+            border-radius: 4px;
+            color: #393939;
+            border-color: #BBBBBB;
+            width: 100px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .btn-create {
+            color: white;
+            background-color: #367FA9;
+            padding: 0;
+            border: 1px solid;
+            width: 70x;
+            width: 70px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 385px;
+        }
+    }
+}
+
+.block-formblock-node {
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+//detail page
+.page-node-type-test1 {
+    .dialog-off-canvas-main-canvas {
+        .main-container {
+            .row {
+                margin: 0 auto;
+                width: 700px;
+                background-color: white;
+
+                .col-sm-12 {
+                    .region-content {
+                        .block-views-blockcount-block-1 {
+                            margin-top: -51px;
+
+                            .form-group {
+                                .view-content {
+                                    height: 50px;
+
+                                    .views-row {
+                                        width: 440px;
+                                        height: 20px;
+                                        padding: 0px;
+
+                                        .myUpdate {
+                                            float: right;
+                                            display: none;
+                                            margin-right: 10px;
+
+                                            .edit {
+                                                width: 50px;
+                                                height: 30px;
+                                                background-color: #367FA9;
+
+                                                a {
+                                                    color: #f0f8ff;
+                                                }
+                                            }
+
+                                            .delete {
+                                                width: 50px;
+                                                height: 30px;
+
+                                                a {
+                                                    color: black;
+                                                }
+                                            }
+                                        }
+
+                                        .views-field-link-flag-1 {
+                                            .field-content {
+                                                .flag-like {
+                                                    margin-left: 385px;
+                                                    margin-top: 7px;
+                                                }
+                                            }
+                                        }
+
+                                        .views-field-link-flag {
+                                            .field-content {
+                                                .flag-bookmark {
+                                                    margin-top: -26px;
+                                                    margin-left: 451px;
+                                                }
+                                            }
+                                        }
+
+                                        .views-field-count-1 {
+                                            margin-top: -22px;
+                                            margin-left: 485px;
+                                        }
+
+                                        .views-field-count {
+                                            //margin-left: 340px;
+                                            //margin-top: -24px;
+                                            margin-top: -25px;
+                                            margin-left: 425px;
+                                        }
+
+                                        .views-field-comment-count {
+                                            margin-left: 511px;
+                                            margin-top: -31px;
+                                            margin-bottom: 27px;
+                                            padding-bottom: 58px;
+                                            font-size: 0;
+                                            .field-content {
+                                                font-size: 10px;
+                                                display: inline-block;
+                                                padding-left: 10px;
+                                            }
+                                        }
+                                        
+                                        .views-label-comment-count:before {
+                                            content: '';
+                                            cursor: pointer;
+                                            float: left;
+                                            margin-top: 5px;
+                                            margin-left: 20%;
+                                            font-size: 6px;
+                                            width: 30px;
+                                            height: 30px;
+                                            background-image: url(/modules/flag-8.x-4.0-alpha3/flag/images/comment.png);
+                                            background-repeat: no-repeat;
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .block-views-blockcontent-comment-block-1 {
+                            .form-group {
+                                .view-content {
+                                    .form-group {
+                                        .views-row {
+                                            width: 680px;
+
+                                            .views-field-user-picture {
+                                                width: 30px;
+                                                height: 30px;
+                                            }
+
+                                            .views-field-uid {
+                                                margin-left: 37px;
+                                                margin-top: -25px;
+                                            }
+
+                                            .views-field-created {
+                                                margin-left: 110px;
+                                                margin-top: -21px;
+                                                margin-bottom: 20px;
+                                            }
+
+                                            .views-field-comment-body {
+                                                margin-left: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .block-views-blockcreate-comment-block-1 {
+                            .form-group {
+                                .view-content {
+                                    .views-row {
+                                        width: 680px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .field--name-field-describe {
+                            margin-top: 10px;
+                        }
+
+                        .field--name-field-video {
+                            .field--item {
+                                text-align: center;
+                                .img-responsive {
+                                    display: initial;
+                                }
+                            }
+                        }
+                        
+                        .field--name-body {
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//main page
+.has-glyphicons {
+    .dialog-off-canvas-main-canvas {
+        .main-container {
+            .row {
+                .col-sm-12 {
+                    .region-content {
+                        .views-element-container {
+                            .view-home {
+                                .view-content {
+                                    .views-infinite-scroll-content-wrapper {
+                                        .views-row {
+                                            .myUpdate {
+                                                float: right;
+                                                margin-right: 10px;
+
+                                                .edit {
+                                                    width: 50px;
+                                                    height: 30px;
+                                                    background-color: #367FA9;
+
+                                                    a {
+                                                        color: #f0f8ff;
+                                                    }
+                                                }
+
+                                                .delete {
+                                                    width: 50px;
+                                                    height: 30px;
+
+                                                    a {
+                                                        color: black;
+                                                    }
+                                                }
+                                            }
+                                            
+                                            .views-field-link-flag-1 {
+                                                .field-content {
+                                                    .flag-like {
+                                                        border-top: solid 1px  #d2d6de;
+                                                        padding-top: 10px;
+                                                    }
+                                                }
+                                            }
+
+                                            .views-field-link-flag {
+                                                .field-content {
+                                                    .flag-bookmark {
+                                                        margin-top: -30px;
+                                                        margin-left: 266px;
+                                                    }
+                                                } 
+                                            }
+
+                                            .views-field-count {
+                                                margin-top: -24px;
+                                                margin-left: 299px;
+                                            }
+
+                                            .views-field-count-1 {
+                                                margin-top: -27px;
+                                                margin-left: 39px;
+                                            }
+
+                                            .views-field-comment-count {
+                                                margin-left: 511px;
+                                                margin-top: -31px;
+                                                margin-bottom: 27px;
+                                                padding-bottom: 58px;
+                                                font-size: 0;
+                                                .field-content {
+                                                    font-size: 10px;
+                                                    display: inline-block;
+                                                    padding-left: 10px;
+                                                }
+                                            }
+                                            
+                                            .views-label-comment-count:before {
+                                                content: '';
+                                                cursor: pointer;
+                                                float: left;
+                                                margin-top: 5px;
+                                                margin-left: 20%;
+                                                font-size: 6px;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-image: url(/modules/flag-8.x-4.0-alpha3/flag/images/comment.png);
+                                                background-repeat: no-repeat;
+                                            }
+
+                                            .views-field-field-video2 {
+                                                margin-bottom: 10px;
+                                            }
+                                            .views-field-field-picture {
+                                                margin-bottom: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }  
+    }
+}
+
+//like page
+.has-glyphicons {
+    .dialog-off-canvas-main-canvas {
+        .main-container {
+            .row {
+                .col-sm-12 {
+                    .region-content {
+                        .views-element-container {
+                            .view {
+                                .view-content {
+                                    .views-infinite-scroll-content-wrapper {
+                                        .views-row {
+                                            .views-field-link-flag-1 {
+                                                .field-content {
+                                                    .flag-like {
+                                                        border-top: solid 1px  #d2d6de;
+                                                        padding-top: 10px;
+                                                    }
+                                                }
+                                            }
+
+                                            .views-field-link-flag {
+                                                .field-content {
+                                                    .flag-bookmark {
+                                                        margin-top: -30px;
+                                                        margin-left: 266px;
+                                                    }
+                                                } 
+                                            }
+                                            .views-field-count {
+                                                margin-top: -24px;
+                                                margin-left: 299px;
+                                            }
+
+                                            .views-field-count-1 {
+                                                margin-top: -27px;
+                                                margin-left: 39px;
+                                            }
+
+                                            .views-field-comment-count {
+                                                margin-left: 511px;
+                                                margin-top: -31px;
+                                                margin-bottom: 27px;
+                                                padding-bottom: 58px;
+                                                font-size: 0;
+                                                .field-content {
+                                                    font-size: 10px;
+                                                    display: inline-block;
+                                                    padding-left: 10px;
+                                                }
+                                            }
+                                            
+                                            .views-label-comment-count:before {
+                                                content: '';
+                                                cursor: pointer;
+                                                float: left;
+                                                margin-top: 5px;
+                                                margin-left: 20%;
+                                                font-size: 6px;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-image: url(/modules/flag-8.x-4.0-alpha3/flag/images/comment.png);
+                                                background-repeat: no-repeat;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }  
+    }
+}
+
+.block-views-blockcontent-comment-block-1 {
+    .form-group {
+        .view-id-content_comment {
+            .view-content {
+                .views-infinite-scroll-content-wrapper {
+                    .views-row {
+                        .myUpdate {
+                            display: none;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

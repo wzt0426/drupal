@@ -1,0 +1,64 @@
+hello_world.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+hello_world.create_content:
+  path: '/hello/createContent'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::create_content'
+    _title: 'create content'
+  requirements:
+    _permission: 'access content'
+
+hello_world.register:
+  path: '/rest/register'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\MiniAppRegisterController::register'
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'FALSE'
+    _format: 'json'
+
+hello_world.create_content.wechart:
+  path: '/wechart/hello/create'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::createContentByWechart'
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'TRUE'
+    _format: 'json'
+
+hello_world.create_content.wechart.file:
+  path: '/wechart/upload/file'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::uploadFile'
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'TRUE'
+    _format: 'json'
+
+hello_world.create_comment.mini_app:
+  path: '/rest/comment/reply/{entity_type}/{entity}/{field_name}/{pid}'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::miniAppCreateComment'
+    _title: 'Add new comment'
+    pid: ~
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      entity:
+        type: entity:{entity_type}
+
+hello_world.edit_content:
+  path: '/wechart/hello/edit'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::editContentByWeChat'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+

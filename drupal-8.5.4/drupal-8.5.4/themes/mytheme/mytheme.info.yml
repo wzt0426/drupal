@@ -1,0 +1,17 @@
+name: Mytheme
+type: theme
+description: '我的第一个自定义主题'
+version: VERSION
+base theme: classy
+core: 8.x
+libraries:
+  - mytheme/global-styling
+
+regions:
+  picture: 背景图片
+  logo: 标识
+  menu: 菜单
+  wenndMessge: 新婚信息
+  time: 新婚时间
+  Invitation: 邀请函
+  link: 链接

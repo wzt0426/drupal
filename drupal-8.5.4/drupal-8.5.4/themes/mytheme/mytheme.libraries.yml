@@ -1,0 +1,18 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/animate.css: {}
+      css/icomoon.css: {}
+      css/bootstrap.css: {}
+      css/superfish.css: {}
+      css/magnific-popup.css: {}
+      css/style.css: {}
+      favicon.ico: {}
+      https://fonts.googleapis.com/css?family=Montez: {}
+      https://fonts.googleapis.com/css?family=Open+Sans:400,700,300: {}
+
+  js:
+    js/modernizr-2.6.2.min.js: {}
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false: {}
+    dist/scripts.min.js: {}
